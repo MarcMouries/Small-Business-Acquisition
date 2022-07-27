@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_acq.Run Subflow Update Business Info</api_name>
+        <description>Run the Subflow Update Business Info for the specified list of MOA Holders Sys Id</description>
+        <mutates_server_data>true</mutates_server_data>
+        <name>Run Subflow Update Business Info</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "moa_holders_sys_id_list",&#13;
+    "label": "List of MOA Holders Sys Id",&#13;
+    "description": "Array of MOA Holders Sys Id ",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "json",&#13;
+    "mandatory": true,&#13;
+   "defaultValue": []&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Array of MOA Holders Sys Id ",
+  "comment" : ""
+}, {
+  "message" : "List of MOA Holders Sys Id",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+    function getEntity_UEI(record_sys_id) {
+        var moaHolderGr = new GlideRecord("x_snc_acq_moa_holder");
+        moaHolderGr.get(record_sys_id);
+        return moaHolderGr.ueisam;
+    }
+
+    function callSubFlow(unique_entity_id) {
+        gs.warn('@ Run Subflow: callSubFlow with UEI: ' + unique_entity_id);
+        try {
+            var inputs = {};
+            inputs['unique_entity_id'] = unique_entity_id;
+            // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+            var flowRunnerResult = sn_fd.FlowAPI.getRunner()
+                .subflow('x_snc_acq.update_business_info')
+                .inForeground()
+                .withInputs(inputs)
+				.run();
+            // Current subflow has no outputs defined.		
+            //var outputs = flowRunnerResult.getOutputs();
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error(message);
+        }
+    }
+
+
+    function process(input) {
+        gs.warn('@ Run Subflow: input =  ' + JSON.stringify(input));
+        var sys_id_list = input.moa_holders_sys_id_list;
+
+        if (!Array.isArray(sys_id_list)) {
+            // throwError('Bound items should be an array');
+            gs.warn("@ Run Subflow: input should be an array");
+            return;
+        }
+        gs.warn('@ Run Subflow: input value =' + sys_id_list);
+
+        for (var i in sys_id_list) {
+            var record_sys_id = sys_id_list[i];
+            gs.warn('@ Run Subflow: Processing record ' + record_sys_id);
+            var unique_entity_id = getEntity_UEI(record_sys_id);
+            callSubFlow(unique_entity_id);
+        }
+    }
+
+    if (!input.moa_holders_sys_id_list) {
+        gs.warn('@ Run Subflow: Missing List of MOA Holders Sys Id');
+        return {
+            "error": "Missing List of MOA Holders Sys Id"
+        };
+    } else {
+        process(input);
+    }
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-26 12:59:07</sys_created_on>
+        <sys_id>6aad79ab1b7c1950b00dddf6b04bcb9d</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Run Subflow Update Business Info</sys_name>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_6aad79ab1b7c1950b00dddf6b04bcb9d</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-26 18:26:06</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=6aad79ab1b7c1950b00dddf6b04bcb9d"/>
+</record_update>

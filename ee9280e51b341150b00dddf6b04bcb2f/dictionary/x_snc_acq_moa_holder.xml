@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sn_niem_organization" label="MOA Holder" max_length="40" name="x_snc_acq_moa_holder" sizeclass="2" text_index="true" type="collection">
+        <element label="SAM Registration" max_length="32" name="sam_registration" reference="sn_niem_sam_entity" type="reference"/>
+        <index name="index">
+            <element name="sam_registration"/>
+        </index>
+    </element>
+</database>

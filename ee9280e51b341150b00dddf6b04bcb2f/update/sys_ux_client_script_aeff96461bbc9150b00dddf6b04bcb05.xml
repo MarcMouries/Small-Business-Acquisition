@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home">74165d2d9f7811501ec9170abb458e69</macroponent>
+        <name>Update MOA Holders - 1 - Confirmation</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log(" Update MOA Holders");
+    console.log(JSON.stringify(event, null, 4));
+    helpers.modal.open("confirm_update");
+
+    console.log("== Selected Records");
+    console.log(api.state.selectedRecords);
+    console.log("== Selected Records");
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-21 15:28:07</sys_created_on>
+        <sys_id>aeff96461bbc9150b00dddf6b04bcb05</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Update MOA Holders - 1 - Confirmation</sys_name>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_client_script_aeff96461bbc9150b00dddf6b04bcb05</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-26 18:37:23</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

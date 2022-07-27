@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="ACQ Workspace_menu_config">19165d2d1b781150b00dddf6b04bcbe9</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-19 20:48:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9165d2d1b781150b00dddf6b04bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MOA Holder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_list_category_d9165d2d1b781150b00dddf6b04bcbeb</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-19 20:48:19</sys_updated_on>
+        <title>MOA Holder</title>
+    </sys_ux_list_category>
+</record_update>

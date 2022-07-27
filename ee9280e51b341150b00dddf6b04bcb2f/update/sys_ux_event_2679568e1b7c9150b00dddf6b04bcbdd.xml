@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>UPDATE_MOA_HOLDERS</event_name>
+        <interfaces/>
+        <label>Update MOA Holders</label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-21 14:59:44</sys_created_on>
+        <sys_id>2679568e1b7c9150b00dddf6b04bcbdd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update MOA Holders</sys_name>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_event_2679568e1b7c9150b00dddf6b04bcbdd</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-21 21:19:46</sys_updated_on>
+    </sys_ux_event>
+</record_update>

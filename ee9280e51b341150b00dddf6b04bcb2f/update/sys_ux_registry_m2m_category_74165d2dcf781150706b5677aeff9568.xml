@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="Acquisitions Workspace">f0165d2d98781150a061f48c1325856b</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-19 20:48:17</sys_created_on>
+        <sys_id>74165d2dcf781150706b5677aeff9568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_74165d2dcf781150706b5677aeff9568</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-19 20:48:17</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>

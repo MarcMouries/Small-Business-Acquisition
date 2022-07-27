@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Update MOA Holders</name>
+        <parent_macroponent display_value="Home">74165d2d9f7811501ec9170abb458e69</parent_macroponent>
+        <source_da display_value="update-moa-holders">ac8791ed1b781150b00dddf6b04bcb3e</source_da>
+        <source_element_id>list_moa_holders</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-21 21:04:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0a62a4e1bbc9150b00dddf6b04bcb9e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Update MOA Holders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_f0a62a4e1bbc9150b00dddf6b04bcb9e</sys_update_name>
+        <sys_updated_by>help</sys_updated_by>
+        <sys_updated_on>2022-07-25 18:28:50</sys_updated_on>
+        <target_event display_value="Update MOA Holders">2679568e1b7c9150b00dddf6b04bcbdd</target_event>
+        <target_payload_mapping>{&#13;
+	"type": "MAP_CONTAINER",&#13;
+	"container": {&#13;
+        "table": {&#13;
+			"type": "EVENT_PAYLOAD_BINDING",&#13;
+			"binding": {&#13;
+				"address": ["table"]&#13;
+			}&#13;
+        },&#13;
+		"sysIds": {&#13;
+			"type": "EVENT_PAYLOAD_BINDING",&#13;
+	        "binding": {&#13;
+				"address": ["sysIds"]&#13;
+			}&#13;
+        }&#13;
+    }&#13;
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>
