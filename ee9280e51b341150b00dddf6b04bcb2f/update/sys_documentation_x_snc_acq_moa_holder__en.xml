@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="MOA Holder" language="en" table="x_snc_acq_moa_holder">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>MOA Holder</label>
+            <language>en</language>
+            <name>x_snc_acq_moa_holder</name>
+            <plural>MOA Holders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-19 14:54:58</sys_created_on>
+            <sys_id>153584a91b341150b00dddf6b04bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>MOA Holder</sys_name>
+            <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_acq_moa_holder__en</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-19 14:54:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
