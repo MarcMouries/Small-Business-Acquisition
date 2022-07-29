@@ -84,6 +84,62 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sba_8a_exit_date</element>
+            <position>6</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-28 19:15:59</sys_created_on>
+            <sys_id>3c4713181b019d50ce2b6579b04bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_acq_moa_holder" sys_domain="global" view="Default view">884508a91b341150b00dddf6b04bcb76</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-28 19:15:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sba_8a</element>
+            <position>7</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-28 19:20:14</sys_created_on>
+            <sys_id>03385b581b019d50ce2b6579b04bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_acq_moa_holder" sys_domain="global" view="Default view">884508a91b341150b00dddf6b04bcb76</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-28 19:20:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sdvosb</element>
+            <position>8</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-28 19:21:10</sys_created_on>
+            <sys_id>7c789f581b019d50ce2b6579b04bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_acq_moa_holder" sys_domain="global" view="Default view">884508a91b341150b00dddf6b04bcb76</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-28 19:21:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sdvosb_exit_date</element>
+            <position>9</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2022-07-28 19:21:35</sys_created_on>
+            <sys_id>4788df581b019d50ce2b6579b04bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_acq_moa_holder" sys_domain="global" view="Default view">884508a91b341150b00dddf6b04bcb76</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2022-07-28 19:21:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

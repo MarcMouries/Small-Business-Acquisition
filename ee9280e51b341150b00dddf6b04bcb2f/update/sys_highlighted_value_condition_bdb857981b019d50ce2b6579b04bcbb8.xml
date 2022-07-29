@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
+        <color>critical</color>
+        <conditions table="x_snc_acq_moa_holder">sdvosb_exit_date&lt;javascript:gs.beginningOfToday()^EQ<item endquery="false" field="sdvosb_exit_date" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.beginningOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <highlighted_value display_value="sdvosb_exit_date">e4c317141b019d50ce2b6579b04bcb58</highlighted_value>
+        <icon/>
+        <order>0</order>
+        <show_icon>false</show_icon>
+        <status/>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-28 19:23:08</sys_created_on>
+        <sys_id>bdb857981b019d50ce2b6579b04bcbb8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_bdb857981b019d50ce2b6579b04bcbb8</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-28 20:08:09</sys_updated_on>
+        <value_override/>
+        <variant>primary</variant>
+    </sys_highlighted_value_condition>
+</record_update>

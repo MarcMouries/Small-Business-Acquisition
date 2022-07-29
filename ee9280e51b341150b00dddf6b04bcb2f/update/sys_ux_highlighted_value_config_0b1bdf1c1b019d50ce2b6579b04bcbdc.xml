@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_highlighted_value_config">
+    <sys_ux_highlighted_value_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Highlighted Value Configuration for the Small Business Acquisition App</description>
+        <name>Highlighted Value Acquisition</name>
+        <sys_class_name>sys_ux_highlighted_value_config</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2022-07-28 19:33:45</sys_created_on>
+        <sys_id>0b1bdf1c1b019d50ce2b6579b04bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Highlighted Value Acquisition</sys_name>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_update_name>sys_ux_highlighted_value_config_0b1bdf1c1b019d50ce2b6579b04bcbdc</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2022-07-28 19:33:45</sys_updated_on>
+    </sys_ux_highlighted_value_config>
+</record_update>
