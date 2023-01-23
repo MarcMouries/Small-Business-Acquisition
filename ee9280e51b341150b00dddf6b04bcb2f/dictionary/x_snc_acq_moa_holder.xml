@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sn_niem_organization" label="MOA Holder" max_length="40" name="x_snc_acq_moa_holder" sizeclass="8" text_index="true" type="collection">
+    <element db_object_id="513584a91b341150b00dddf6b04bcba3" extends="sn_niem_organization" label="MOA Holder" max_length="40" name="x_snc_acq_moa_holder" text_index="true" type="collection">
         <element label="SAM Registration" max_length="32" name="sam_registration" reference="sn_niem_sam_entity" type="reference"/>
         <element label="SBA 8(a) " max_length="40" name="sba_8a" type="boolean"/>
         <element label="SBA 8(a) Exit Date" max_length="40" name="sba_8a_exit_date" type="glide_date"/>
         <element label="SDVOSB" max_length="40" name="sdvosb" type="boolean"/>
         <element label="SDVOSB Exit Date" max_length="40" name="sdvosb_exit_date" type="glide_date"/>
+        <element label="WOSB" max_length="40" name="wosb" type="boolean"/>
         <index name="index">
             <element name="sam_registration"/>
         </index>
