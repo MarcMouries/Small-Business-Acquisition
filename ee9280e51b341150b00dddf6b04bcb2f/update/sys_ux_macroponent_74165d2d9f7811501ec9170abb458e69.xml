@@ -1825,7 +1825,7 @@
                           },
                           "filterQuery" : {
                             "type" : "JSON_LITERAL",
-                            "value" : "priority=1"
+                            "value" : "priority=1^active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
                           },
                           "reportSourceSysId" : {
                             "type" : "JSON_LITERAL",
@@ -3058,12 +3058,49 @@
         "type" : "MACROPONENT"
       },
       "overrides" : {
-        "composition" : [ ],
+        "composition" : [ {
+          "elementId" : "stylized_text_2",
+          "elementLabel" : "Stylized text 2",
+          "propertyValues" : {
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* { }"
+            },
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "h1"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : { }
+        } ],
         "layout" : {
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [],
+            "items" : [{"element_id":"stylized_text_2","styles":{}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"column"},
@@ -3263,13 +3300,13 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2022-07-19 20:48:17</sys_created_on>
         <sys_id>74165d2d9f7811501ec9170abb458e69</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
         <sys_update_name>sys_ux_macroponent_74165d2d9f7811501ec9170abb458e69</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-01-25 02:26:43</sys_updated_on>
+        <sys_updated_on>2023-02-01 19:54:21</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

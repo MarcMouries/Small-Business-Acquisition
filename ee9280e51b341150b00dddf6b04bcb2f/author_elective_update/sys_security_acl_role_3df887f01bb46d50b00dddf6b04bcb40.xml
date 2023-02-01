@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-02-01 17:25:57</sys_created_on>
+        <sys_id>3df887f01bb46d50b00dddf6b04bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_acq_contract_approval.x_snc_acq.Admin</sys_name>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_security_acl display_value="x_snc_acq_contract_approval">7df887f01bb46d50b00dddf6b04bcb3d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3df887f01bb46d50b00dddf6b04bcb40</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-02-01 17:25:57</sys_updated_on>
+        <sys_user_role display_value="x_snc_acq.Admin" name="x_snc_acq.Admin">34c48c691b341150b00dddf6b04bcbd9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</application>
+        <file_path/>
+        <instance_id>9e5e7297dbf290d89a4dcac5059619d0</instance_id>
+        <instance_name>appengine4gov</instance_name>
+        <name>sys_security_acl_role_3df887f01bb46d50b00dddf6b04bcb40</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-02-01 17:25:57</sys_created_on><sys_id>3df887f01bb46d50b00dddf6b04bcb40</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_acq_contract_approval.x_snc_acq.Admin</sys_name><sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package><sys_policy/><sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope><sys_security_acl display_value="x_snc_acq_contract_approval">7df887f01bb46d50b00dddf6b04bcb3d</sys_security_acl><sys_update_name>sys_security_acl_role_3df887f01bb46d50b00dddf6b04bcb40</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-02-01 17:25:57</sys_updated_on><sys_user_role display_value="x_snc_acq.Admin" name="x_snc_acq.Admin">34c48c691b341150b00dddf6b04bcbd9</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>469711604</payload_hash>
+        <record_name>x_snc_acq_contract_approval.x_snc_acq.Admin</record_name>
+        <reverted_from/>
+        <source>3ecb35441bcd9950b00dddf6b04bcbbb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-02-01 17:25:57</sys_created_on>
+        <sys_id>bdf887f01bb46d50b00dddf6b04bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1860e0384df0000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-02-01 17:25:57</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b5f887f01ab46d50f776cc9c34df5443</update_guid>
+        <update_guid_history>b5f887f01ab46d50f776cc9c34df5443:469711604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_acq_contract_approval.x_snc_acq.Admin">182a2f781b786d50b00dddf6b04bcb68</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-02-01 19:50:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1bf0966fa4494178bfab0b7c25e99c40</sys_id>
+        <sys_metadata>3df887f01bb46d50b00dddf6b04bcb40</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_acq_contract_approval.x_snc_acq.Admin</sys_name>
+        <sys_package display_value="Small Business  Acquisition" source="x_snc_acq">ee9280e51b341150b00dddf6b04bcb2f</sys_package>
+        <sys_parent display_value="">7df887f01bb46d50b00dddf6b04bcb3d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Small Business  Acquisition">ee9280e51b341150b00dddf6b04bcb2f</sys_scope>
+        <sys_scope_delete display_value="">0bbc2d24f82d479480e6af45a56a1d10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3df887f01bb46d50b00dddf6b04bcb40</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3df887f01bb46d50b00dddf6b04bcb40">bdf887f01bb46d50b00dddf6b04bcb43</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-02-01 19:50:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
